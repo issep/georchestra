@@ -35,3 +35,6 @@
 	path = geoserver/geoserver-submodule
 	url = https://github.com/georchestra/geoserver.git
 	branch = 2.12.5-georchestra
+[submodule "/home/ben/git/georchestra/mapfishapp/src/main/webapp/app/addons/virtualearth"]
+	path = /home/ben/git/georchestra/mapfishapp/src/main/webapp/app/addons/virtualearth
+	url = https://github.com/issep/virtualearth
