@@ -1,0 +1,42 @@
+{
+    "js": [
+    "js/javascript.util.js",
+    "js/jsts.js",
+        "js/main.js"
+    ],
+    "css": [
+        "css/main.css"
+    ],
+    "default_options": {
+        "target": "tbar_11",
+        "graphicStyle": {
+            "graphicName": "cross",
+            "pointRadius": 16,
+            "strokeColor": "fuchsia",
+            "strokeWidth": 2,
+            "fillOpacity": 0
+        }
+    },
+    "i18n": {
+        "en": {
+            "isochrones_helper_message": "Click on the map to display the 7 and 12 minutes isochrones",
+            "isochrones.title": "Click on the map to display the 7 and 12 minutes isochrones"
+        },
+        "es": {
+            "isochrones_helper_message": "Haga clic en el mapa para mostrar las isócronas de 7 y 12 minutos",
+            "isochrones.title": "Haga clic en el mapa para mostrar las isócronas de 7 y 12 minutos"
+        },
+        "fr": {
+            "isochrones_helper_message": "(développement en cours...) Cliquez sur la carte pour afficher les isochrones 7 et 12 minutes,",
+            "isochrones.title": "(développement en cours...) Cliquez sur la carte pour afficher les isochrones 7 et 12 minutes"
+        },
+        "de": {
+            "isochrones_helper_message": "Klicken Sie auf die Karte, um die 7- und 12-Minuten-Isochronen anzuzeigen",
+            "isochrones.title": "Klicken Sie auf die Karte, um die 7- und 12-Minuten-Isochronen anzuzeigen"
+        },
+        "nl": {
+            "isochrones_helper_message": "Klik op de kaart om de isochronen van 7 en 12 minuten weer te geven",
+            "isochrones.title": "Klik op de kaart om de isochronen van 7 en 12 minuten weer te geven"
+        }
+    }
+}

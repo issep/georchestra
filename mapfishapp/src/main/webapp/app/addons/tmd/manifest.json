@@ -1,0 +1,82 @@
+{
+    "js": [
+        "js/main.js",
+        "js/javascript.util.js",
+        "js/jsts.js"
+    ],
+    "css": [
+        "css/main.css"
+    ],
+    "default_options": {
+        "_target": "tbar_12",
+        "graphicStyle": {
+            "graphicName": "cross",
+            "pointRadius": 16,
+            "strokeColor": "fuchsia",
+            "strokeWidth": 2,
+            "fillOpacity": 0
+        }
+    },
+    "i18n": {
+        "en": {
+            "tmd_helper_message": "Extension for the simulation of a Dangerous Goods Transport accident",
+            "tmd.title": "DGT simulation",
+            "tmd.grid.title": "Select a type, then clic on the map",
+            "tmd.grid.header.type": "Type",
+            "tmd.grid.header.product": "Product",
+            "tmd.grid.header.radiuszdi": "Immediate danger zone (m)",
+            "tmd.grid.header.radiuszr": "Risk zone (m)",
+            "tmd.grid.header.radiuszv": "Vigilance zone (m)",
+            "tmd.grid.header.company": "Entreprise",
+            "tmd.grid.header.carrier": "Véhicule"
+        },
+        "es": {
+            "tmd_helper_message": "Ampliación para la simulación de un accidente de transporte de mercancías peligrosas",
+            "tmd.title": "Simulation TMD",
+            "tmd.grid.title": "Seleccione un tipo, luego haga clic en el mapa",
+            "tmd.grid.header.type": "Type",
+            "tmd.grid.header.product": "Produit",
+            "tmd.grid.header.radiuszdi": "Zone de danger immédiat (m)",
+            "tmd.grid.header.radiuszr": "Zone de risque (m)",
+            "tmd.grid.header.radiuszv": "Zona de vigilancia (m)",
+            "tmd.grid.header.company": "Entreprise",
+            "tmd.grid.header.carrier": "Véhicule"
+        },
+        "fr": {
+            "tmd_helper_message": "Extension pour la simulation d'un accident de Transport de Matière Dangereuse",
+            "tmd.title": "Simulation TMD",
+            "tmd.grid.title": "Sélectionnez un type, puis cliquez sur la carte",
+            "tmd.grid.header.type": "Type",
+            "tmd.grid.header.product": "Produit",
+            "tmd.grid.header.radiuszdi": "Zone de danger immédiat (m)",
+            "tmd.grid.header.radiuszr": "Zone de risque (m)",
+            "tmd.grid.header.radiuszv": "Zone de vigilance (m)",
+            "tmd.grid.header.company": "Entreprise",
+            "tmd.grid.header.carrier": "Véhicule"
+        },
+        "de": {
+            "tmd_helper_message": "Erweiterung zur Simulation eines Gefahrguttransportunfalls",
+            "tmd.title": "Simulation TMD",
+            "tmd.grid.title": "Wählen Sie einen Typ aus und klicken Sie auf die Karte",
+            "tmd.grid.header.type": "Type",
+            "tmd.grid.header.product": "Produit",
+            "tmd.grid.header.radiuszdi": "Zone de danger immédiat (m)",
+            "tmd.grid.header.radiuszr": "Zone de risque (m)",
+            "tmd.grid.header.radiuszv": "Zone de vigilance (m)",
+            "tmd.grid.header.company": "Entreprise",
+            "tmd.grid.header.carrier": "Véhicule"
+        },
+        "nl": {
+            "tmd_helper_message": "Uitbreiding voor de simulatie van een ongeval met transport van gevaarlijke goederen",
+            "tmd.title": "TMD-ongevalsimulatie ",
+            "tmd.grid.title": "Selecteer een type en klik vervolgens op de kaart",
+            "tmd.grid.header.type": "Type",
+            "tmd.grid.header.product": "Product",
+            "tmd.grid.header.radiuszdi": "Onmiddellijke gevarenzone (m)",
+            "tmd.grid.header.radiuszr": "Risicozone (m)",
+            "tmd.grid.header.radiuszv": "Waakzaamheid zone (m)",
+            "tmd.grid.header.company": "Onderneming",
+            "tmd.grid.header.carrier": "Voertuig"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+[
+    {
+        "id": "isochrones_0",
+        "enabled": true,
+        "name": "Isochrones",
+        "options": {
+            "target": "tbar_11",
+            "graphicStyle": {
+                "graphicName": "cross",
+                "pointRadius": 16,
+                "strokeColor": "fuchsia",
+                "strokeWidth": 2,
+                "fillOpacity": 0
+            }
+        },
+    "roles": ["ROLE_USER"],
+    "preloaded": true,
+        "title": {
+            "en": "Isochrones",
+            "fr": "Isochrones",
+            "es": "Isócrono",
+            "de": "Isochronen",
+            "nl": "Isochrone"
+        },
+        "description": {
+            "en": "Isochrones 7 and 12 minutes",
+            "fr": "Isochrones 7 et 12 minutes",
+            "es": "Isócrono de 7 y 12 minutos",
+            "de": "Isochronen 7 und 12 Minuten",
+            "nl": "Isochroon 7 en 12 minuten"
+        }
+    }
+]

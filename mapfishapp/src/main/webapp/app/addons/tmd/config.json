@@ -1,0 +1,60 @@
+[
+    {
+        "id": "tmd_0",
+        "enabled": true,
+        "name": "Tmd",
+        "title": {
+            "en": "TMD accident simulation",
+            "fr": "Simulation accident TMD",
+            "es": "TMD simulación de accidentes",
+            "de": "TMD-Unfallsimulation",
+            "nl": "TMD-ongevalsimulatie"
+        },
+        "description": {
+            "en": "Simulation of a dangerous goods transport accident",
+            "fr": "Simulation d'un accident de Transport de Matière Dangereuse",
+            "es": "Simulación de un accidente de transporte de mercancías peligrosas",
+            "de": "Simulation eines Gefahrguttransportunfalls",
+            "nl": "Simulatie van een ongeval met transport van gevaarlijke goederen"
+        },
+        "roles": ["ROLE_USER"],
+        "preloaded": true,
+        "options": {
+            "target": "tbar_11",
+            "typesTransportData": 
+                //nom des en-têtes (=nom des champs en bd), database=alarm, schema=hazard, table=typestransport
+                //id, produit, description, remarques, the_geom, typerisque, entreprise, denom, entrepriseNom, radiuszdi, radiuszr, radiuszv, materials
+            [
+                [3,"Ammoniac, gaz naturel, acide nitrique concentré (99%), nitrate d'ammonium, gaz nitreux.","","Rapport de sécurité, fiches distances d'effets,…",null,"TO","Yara (SH)","Wagon-citerne (amoniac)","Yara (SH)",1805,5000,5000,"Ammoniac, gaz naturel, acide nitrique concentré (99%), nitrate d'ammonium, gaz nitreux."],
+                [6,"Acrylonitrile, oxyde d'éthylène, oxyde de propylène, gaz naturel,…","","Fiches distances d'effets, scénarii d'accident",null,"TO","Polyol (SH)","Wagon-citerne (oxyde d'éthylène)","Polyol (SH)",1065,5000,5000,"Acrylonitrile, oxyde d'éthylène, oxyde de propylène, gaz naturel,…"],
+                [4,"Ammoniac, gaz naturel, acide nitrique concentré (99%), nitrate d'ammonium, gaz nitreux.",null,"Rapport de sécurité, fiches distances d'effets,…",null,"TO","Yara (SH)","Camion-citerne (amoniac)","Yara (SH)",1210,5000,5000,"Ammoniac, gaz naturel, acide nitrique concentré (99%), nitrate d'ammonium, gaz nitreux."],
+                [5,"Acrylonitrile, oxyde d'éthylène, oxyde de propylène, gaz naturel,…",null,"Fiches distances d'effets, scénarii d'accident",null,"TO","Polyol (SH)","Camion-citerne (acrylonitrile)","Polyol (SH)",1296,3934,5000,"Acrylonitrile, oxyde d'éthylène, oxyde de propylène, gaz naturel,…"],
+                [7,"Acrylonitrile, oxyde d'éthylène, oxyde de propylène, gaz naturel,…",null,"Fiches distances d'effets, scénarii d'accident",null,"TO","Polyol (SH)","Wagon-citerne (oxyde de propylène)","Polyol (SH)",823,1494,3100,"Acrylonitrile, oxyde d'éthylène, oxyde de propylène, gaz naturel,…"],
+                [8,"Acrylonitrile, oxyde d'éthylène, oxyde de propylène, gaz naturel,…",null,"Fiches distances d'effets, scénarii d'accident",null,"SU","Polyol (SH)","Camion-citerne (acrylonitrile)","Polyol (SH)",100,100,156,"Acrylonitrile, oxyde d'éthylène, oxyde de propylène, gaz naturel,…"],
+                [9,"Acrylonitrile, oxyde d'éthylène, oxyde de propylène, gaz naturel,…",null,"Fiches distances d'effets, scénarii d'accident",null,"SU","Polyol (SH)","Wagon-citerne (oxyde d'éthylène)","Polyol (SH)",272,435,865,"Acrylonitrile, oxyde d'éthylène, oxyde de propylène, gaz naturel,…"],
+                [10,"Acrylonitrile, oxyde d'éthylène, oxyde de propylène, gaz naturel,…",null,"Fiches distances d'effets, scénarii d'accident",null,"SU","Polyol (SH)","Wagon-citerne (oxyde de propylène)","Polyol (SH)",218,320,623,"Acrylonitrile, oxyde d'éthylène, oxyde de propylène, gaz naturel,…"],
+                [11,"Acrylonitrile, oxyde d'éthylène, oxyde de propylène, gaz naturel,…",null,"Fiches distances d'effets, scénarii d'accident",null,"CH","Polyol (SH)","Camion-citerne (acrylonitrile)","Polyol (SH)",0,200,300,"Acrylonitrile, oxyde d'éthylène, oxyde de propylène, gaz naturel,…"],
+                [12,"Acrylonitrile, oxyde d'éthylène, oxyde de propylène, gaz naturel,…",null,"Fiches distances d'effets, scénarii d'accident",null,"CH","Polyol (SH)","Wagon-citerne (oxyde d'éthylène)","Polyol (SH)",268,421,701,"Acrylonitrile, oxyde d'éthylène, oxyde de propylène, gaz naturel,…"],
+                [13,"Acrylonitrile, oxyde d'éthylène, oxyde de propylène, gaz naturel,…",null,"Fiches distances d'effets, scénarii d'accident",null,"CH","Polyol (SH)","Wagon-citerne (oxyde de propylène)","Polyol (SH)",291,448,739,"Acrylonitrile, oxyde d'éthylène, oxyde de propylène, gaz naturel,…"],
+                [16,"Acide chloridrique, solvants inflammables,…",null,"Divers scénarii d'accident",null,"TO","Brenntag (SH)","Camion-citerne d'acide chloridrique 33%","Brenntag (SH)",190,495,1825,"Acide chloridrique, solvants inflammables,…"],
+                [14,"Divers composés organiques, peroxyde d'hydrogène, etc...",null,"Rapport de sécurité, fiches réflexes,…",null,"SU","AKZO nobel (SH)","Camion de peroxydes organiques","AKZO nobel (SH)",0,377,539,"Divers composés organiques, peroxyde d'hydrogène, etc..."],
+                [15,"Divers composés organiques, peroxyde d'hydrogène, etc...",null,"Rapport de sécurité, fiches réflexes,…",null,"CH","AKZO nobel (SH)","Camion de peroxydes organiques","AKZO nobel (SH)",100,100,100,"Divers composés organiques, peroxyde d'hydrogène, etc..."],
+                [17,"Acide chloridrique, solvants inflammables,…",null,"Divers scénarii d'accident",null,"CH","Brenntag (SH)","Camion-citerne de solvants inflammables","Brenntag (SH)",100,100,100,"Acide chloridrique, solvants inflammables,…"],
+                [18,"Gasoil, diesel, pétrole lampant, biodiesel,…",null,"Rapport de sécurité, fiches distances d'effets,…",null,"CH","Energy Oil Service (E.O.S.) - Hainaut tanking (SH)","Camion-citerne d'essence","Energy Oil Service (E.O.S.) - Hainaut tanking (SH)",0,200,300,"Gasoil, diesel, pétrole lampant, biodiesel,…"],
+                [19,"Polystyrène expensible, pentane, styrène,…",null,"Rapport de sécurité, fiches distances d'effets,…",null,"TO","Gabriel Technologie (SH)","Barge de transport (styrène)","Gabriel Technologie (SH)",449,1730,5000,"Polystyrène expensible, pentane, styrène,…"],
+                [20,"Polystyrène expensible, pentane, styrène,…",null,"Rapport de sécurité, fiches distances d'effets,…",null,"SU","Gabriel Technologie (SH)","Camion-citerne (pentane)","Gabriel Technologie (SH)",100,103,215,"Polystyrène expensible, pentane, styrène,…"],
+                [21,"Polystyrène expensible, pentane, styrène,…",null,"Rapport de sécurité, fiches distances d'effets,…",null,"CH","Gabriel Technologie (SH)","Camion-citerne (pentane)","Gabriel Technologie (SH)",141,216,360,"Polystyrène expensible, pentane, styrène,…"],
+                [22,"formaldéhyde 37%, hexane,...",null,"Scénarii d'accident",null,"TO","Univar Blandain - Quaron (SH)","Camion-citerne (formaldéhyde 37%)","Univar Blandain - Quaron (SH)",100,105,575,"formaldéhyde 37%, hexane,..."],
+                [23,"formaldéhyde 37%, hexane,...",null,"Scénarii d'accident",null,"CH","Univar Blandain - Quaron (SH)","Camion-citerne (hexane)","Univar Blandain - Quaron (SH)",0,200,300,"formaldéhyde 37%, hexane,..."],
+                [24,"Urée, mélamine, méthanol.",null,"Rapport de sécurité, fiches distances d'effets,…",null,"TO","Advachem (SB)","Barge de méthanol","Advachem (SB)",159,286,567,"Urée, mélamine, méthanol."],
+                [25,"Propane",null,"Rapport de sécurité, fiches distances d'effets,…",null,"SU","Shell Ghlin (SB)","Camion de propane (22T)","Shell Ghlin (SB)",272,425,831,"Propane"],
+                [26,"Propane",null,"Rapport de sécurité, fiches distances d'effets,…",null,"CH","Shell Ghlin (SB)","Camion de propane (22T)","Shell Ghlin (SB)",288,421,676,"Propane"],
+                [27,"Formol, phénol, gasoil.",null,"Rapport de sécurité, fiches distances d'effets,…",null,"TO","Saluc (SB)","Camion de formol 37%","Saluc (SB)",142,502,2073,"Formol, phénol, gasoil."]
+            ],
+            "defaultType": "SU",
+            "defaultVectorFormat": "shp",
+            "defaultRasterFormat": "geotiff",
+            "defaultRasterResolution": 50
+        }
+    }
+]
